@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+
+*{
+  font-family: 'Space Mono';
+  color: white;
+}
+
+*:focus{
+  outline: none;
+  background-color: #444;
+}
+label{
+  margin-top: 25px;
+  display: block;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+  background-image: url('https://i.ytimg.com/vi/lwH3FgbXqMM/maxresdefault.jpg')
+}
+
+input[type=text]{
+  width: 175px;
+  height: 30px;
+  background-color: black;
+  color: cyan;
+  font-size:15px;
+}
+
+#inputs{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  width: 200px;
+  height: 75px;
+  font-size: 17px;
+}
+
+#idea-holder{
+
+}
+
+.idea{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border: 2px solid cyan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.delete-btn{
+  background-color: #444;
+}
+
+.delete-btn:active{
+  background-color: fuchsia;
+  color: white;
+}
+
+.delete-btn:focus{
+  outline: none;
+}
+
+button{
+  color: fuchsia;
+  background-color: black;
+}
